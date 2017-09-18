@@ -2,7 +2,7 @@
 #
 # Script based on https://forums.adobe.com/message/4727551
 
-/tmp/ColdFusion_2016_WWEJ_linux64.bin -f installer.profile
+/tmp/ColdFusion_2016_WWEJ_linux64.bin -f silent.properties
 
 # Disable admin security
 /tmp/neo-security-config.sh /opt/coldfusion11/cfusion false
